@@ -22,6 +22,6 @@ def get_even_numbers(num):
 if __name__ == "__main__":
     even_nums = get_even_numbers(100)
     print(even_nums) 
-    print(is_even(9))
+    #print(is_even(9)) 
 
     
