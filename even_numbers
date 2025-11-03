@@ -8,7 +8,19 @@ def is_even(number):
     return False
 
 
+def get_even_numbers(num):
+    even_numbers = []
+    if num <= 1:
+        return even_numbers
+    
+    for i in range(2, num + 1):
+        if i % 2 == 0:
+            even_numbers.append(i)
+            print(f"{i} is even")
+    return even_numbers 
+
 if __name__ == "__main__":
+    get_even_numbers(100)
     print(is_even(9))
 
     
