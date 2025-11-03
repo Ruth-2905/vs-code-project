@@ -20,7 +20,8 @@ def get_even_numbers(num):
     return even_numbers 
 
 if __name__ == "__main__":
-    get_even_numbers(100)
+    even_nums = get_even_numbers(100)
+    print(even_nums) 
     print(is_even(9))
 
     
