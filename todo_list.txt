@@ -1,5 +1,7 @@
 [
     "Will go to the market",
     "Read a novel by 5pm",
-    "Wake up by 5am"
+    "Wake up by 5am",
+    "Take python class",
+    "wash by 6am"
 ]
